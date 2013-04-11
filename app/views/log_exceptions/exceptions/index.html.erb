@@ -1,0 +1,24 @@
+<h1><%= @title %> (<%= @exceptions.size %>)</h1>
+<div class="row">
+  <div class="span12">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Exception</th>
+          <th>Issued</th>
+        </tr>
+      </thead>
+      <tbody>
+          <% for exception in @exceptions %>
+            <tr>
+              <td><%= exception.id %></td>
+              <td><%= exception.message %></td>
+              <td><%= exception.created_at %></td>
+            </tr>
+          <% end %>
+      </tbody>
+    </table>
+    <p><%= link_to "All Exceptions", root_url, :class => 'btn btn-large' %></p>
+  </div>
+</div>
