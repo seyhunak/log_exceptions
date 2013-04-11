@@ -5,15 +5,11 @@ LogExceptions is a exception logger for Rails applications to track your applica
 
 
 [![Gem Version](https://badge.fury.io/rb/log_exceptions.png)][gem]
-[![Build Status](https://secure.travis-ci.org/seyhunak/log_exceptions.png?branch=master)][travis]
-[![Dependency Status](https://gemnasium.com/seyhunak/log_exceptions.png?travis)][gemnasium]
 [![Code Climate](https://codeclimate.com/github/seyhunak/log_exceptions.png)][codeclimate]
 [![Coverage Status](https://coveralls.io/repos/seyhunak/log_exceptions/badge.png?branch=master)][coveralls]
 
 [log_exceptions]: https://rubygems.org/gems/log_exceptions
 [gem]: https://rubygems.org/gems/log_exceptions
-[travis]: http://travis-ci.org/seyhunak/log_exceptions
-[gemnasium]: https://gemnasium.com/seyhunak/log_exceptions
 [codeclimate]: https://codeclimate.com/github/seyhunak/log_exceptions
 [coveralls]: https://coveralls.io/r/seyhunak/log_exceptions
 

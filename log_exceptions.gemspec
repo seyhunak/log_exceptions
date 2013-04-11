@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.email       = ["seyhunak@gmail.com"]
   s.homepage    = "https://github.com/seyhunak/log_exceptions"
   s.summary     = "LogExceptions is the mountable exception engine"
-  s.description = "LogExceptions is the mountable exception engine, it mount your existing application to log your exceptins."
+  s.description = "LogExceptions is the mountable exception engine, it mounts your existing application to log your exceptions."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
