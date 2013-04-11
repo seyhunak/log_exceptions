@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.version     = LogExceptions::VERSION
   s.authors     = ["Seyhun Akyurek"]
   s.email       = ["seyhunak@gmail.com"]
-  s.homepage    = "http://log_exceptions.github.com"
+  s.homepage    = "https://github.com/seyhunak/log_exceptions"
   s.summary     = "LogExceptions is the mountable exception engine"
   s.description = "LogExceptions is the mountable exception engine, it mount your existing application to log your exceptins."
 
